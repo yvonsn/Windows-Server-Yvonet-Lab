@@ -73,18 +73,24 @@ Dentro de VirtualBox se han creado dos máquinas virtuales:
 - Un servidor Windows Server 2024 que actúa como infraestructura principal del dominio.
 - Un cliente Windows 11 utilizado para realizar pruebas de acceso, usuarios y permisos.
 
-Equipo físico
-└── Windows 11
-    └── VirtualBox
-        ├── SVR-YVONET
-        │   ├── Windows Server 2024
-        │   ├── Dominio: YVONET.LOCAL
-        │   └── Active Directory + DNS
-        │
-        └── Cliente Windows 11
-            ├── Unido al dominio
-            └── Pruebas de usuarios y permisos
-
+```text
+Equipo físico (Windows 11)
+        |
+        |
+    VirtualBox
+        |
+        +----------------+
+        |                |
+        |                |
+ SVR-YVONET        Cliente Windows 11
+ Windows Server    Windows 11
+ 2024              Unido al dominio
+        |
+        |
+ YVONET.LOCAL
+ Active Directory
+ DNS
+```
 ---
 
 ## Estado
