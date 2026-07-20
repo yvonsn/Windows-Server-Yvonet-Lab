@@ -2,53 +2,71 @@
 
 Laboratorio práctico de administración de sistemas Windows Server orientado a entornos empresariales y soporte IT.
 
-## Objetivo del proyecto
+## Descripción
 
-Este laboratorio simula una infraestructura empresarial donde se practican tareas habituales de administración de sistemas:
+YVONET es un laboratorio donde se simula la infraestructura tecnológica de una empresa ficticia, aplicando tareas habituales de administración de sistemas y soporte técnico.
 
-- Instalación y configuración de Windows Server.
-- Creación y administración de un dominio Active Directory.
-- Gestión de usuarios y grupos.
-- Configuración de permisos NTFS.
-- Creación de recursos compartidos.
-- Unión de equipos cliente al dominio.
-- Diagnóstico y resolución de incidencias.
+El proyecto documenta la creación, configuración y resolución de incidencias de un entorno basado en Windows Server.
+
+## Objetivos
+
+* Practicar administración de sistemas Windows.
+* Crear y gestionar un dominio Active Directory.
+* Administrar usuarios, grupos y permisos.
+* Configurar recursos compartidos.
+* Simular incidencias reales de soporte IT.
+* Documentar procedimientos y soluciones.
 
 ## Entorno del laboratorio
 
-### Servidor
+**Servidor**
 
-- Sistema operativo: Windows Server 2024
-- Nombre del servidor: `SVR-YVONET`
-- Dominio: `YVONET.LOCAL`
+* Sistema operativo: Windows Server 2024
+* Nombre del servidor: `SVR-YVONET`
+* Dominio: `YVONET.LOCAL`
 
-Servicios configurados:
+**Cliente**
 
-- Active Directory Domain Services (AD DS)
-- DNS
-- Usuarios y grupos del dominio
-- Carpetas compartidas
+* Sistema operativo: Windows 11
 
-### Cliente
+## Tecnologías utilizadas
 
-- Sistema operativo: Windows 11
-- Equipo unido al dominio `YVONET.LOCAL`
+* Windows Server 2024
+* Active Directory Domain Services (AD DS)
+* DNS
+* Usuarios y grupos de dominio
+* Permisos NTFS
+* Recursos compartidos
+* PowerShell
 
 ## Estructura del proyecto
 
-## Estructura organizativa simulada
+* `docs/`
+  Documentación técnica del laboratorio.
 
-Empresa ficticia:
+* `screenshots/`
+  Capturas y evidencias del proceso.
 
+* `scripts/`
+  Scripts de automatización y administración.
 
-## Incidencias documentadas
+## Documentación
 
-Durante el desarrollo del laboratorio se documentan problemas reales encontrados y su resolución:
+La documentación completa del proyecto se encuentra en:
 
-- Acceso a carpetas compartidas.
-- Gestión de permisos NTFS.
-- Resolución de problemas de usuarios y recursos de red.
+* [Introducción al laboratorio](docs/01-Introduccion.md)
+
+## Estado del proyecto
+
+🚧 Proyecto en desarrollo.
+
+Se irán incorporando nuevas configuraciones, pruebas e incidencias documentadas.
 
 ## Objetivo profesional
 
-Proyecto desarrollado para reforzar conocimientos en administración Windows, soporte técnico y resolución de incidencias en entornos IT.
+Este laboratorio forma parte del desarrollo de competencias orientadas a puestos de:
+
+* Soporte IT / HelpDesk L1.
+* Administración básica de sistemas.
+* Resolución de incidencias.
+* Documentación técnica.
