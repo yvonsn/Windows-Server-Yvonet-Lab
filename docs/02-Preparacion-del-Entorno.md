@@ -74,16 +74,16 @@ Dentro de VirtualBox se han creado dos máquinas virtuales:
 - Un cliente Windows 11 utilizado para realizar pruebas de acceso, usuarios y permisos.
 
 Equipo físico
-Windows 11
-│
-└── VirtualBox
-    │
-    ├── SVR-YVONET
-    │   Windows Server 2024
-    │   Dominio: YVONET.LOCAL
-    │
-    └── Cliente Windows 11
-        Equipo unido al dominio
+└── Windows 11
+    └── VirtualBox
+        ├── SVR-YVONET
+        │   ├── Windows Server 2024
+        │   ├── Dominio: YVONET.LOCAL
+        │   └── Active Directory + DNS
+        │
+        └── Cliente Windows 11
+            ├── Unido al dominio
+            └── Pruebas de usuarios y permisos
 
 ---
 
