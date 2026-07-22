@@ -55,11 +55,12 @@ Funciones previstas:
 
 ---
 
-## Evidencia 2. Configuración de la máquina virtual Windows Server 2022
+## Evidencia 2. Configuración de la máquina virtual Windows Server 2022.
 
 <img src="../screenshots/02-configuracion_servidor.png" width="600">
 
-*Figura 2. Configuración de recursos asignados al servidor.*
+*Figura 3. Configuración de recursos asignados al equipo cliente.*
+
 ---
 
 ## Cliente Windows 11
