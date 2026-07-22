@@ -31,7 +31,7 @@ El proyecto documenta la creación, configuración y resolución de incidencias 
 
 ## Tecnologías utilizadas
 
-* Windows Server 2024
+* Windows Server 2022
 * Active Directory Domain Services (AD DS)
 * DNS
 * Usuarios y grupos de dominio
