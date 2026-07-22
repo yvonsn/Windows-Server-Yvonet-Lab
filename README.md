@@ -50,11 +50,21 @@ El proyecto documenta la creación, configuración y resolución de incidencias 
 * `scripts/`
   Scripts de automatización y administración.
 
-## Documentación
+* ## 📚 Documentación
 
-La documentación completa del proyecto se encuentra en:
+Este proyecto está documentado paso a paso para facilitar su seguimiento y servir como referencia para futuros laboratorios de administración de sistemas.
 
-* [Introducción al laboratorio](docs/01-Introduccion.md)
+- [01 - Introducción](docs/01-Introduccion.md)
+- [02 - Preparación del entorno](docs/02-Preparacion-del-Entorno.md)
+- [03 - Instalación de Windows Server](docs/03-Instalacion-Windows-Server.md)
+- [04 - Configuración del servidor](docs/04-Configuracion-Servidor.md)
+- [05 - Active Directory](docs/05-Active-Directory.md)
+- [06 - Unidades Organizativas](docs/06-Unidades-Organizativas.md)
+- [07 - Usuarios y Grupos](docs/07-Usuarios-y-Grupos.md)
+- [08 - Recursos Compartidos](docs/08-Recursos-Compartidos.md)
+- [09 - Permisos NTFS](docs/09-Permisos-NTFS.md)
+- [10 - Incidencias](docs/10-Incidencias.md)
+- [11 - Conclusiones](docs/11-Conclusiones.md)
 
 ## Estado del proyecto
 
