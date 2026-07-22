@@ -56,6 +56,7 @@ Durante el desarrollo del laboratorio se documentarán:
 - Sistema operativo: Windows 11
 
 <img src="../screenshots/intro.jpg" width="600">
+
 ---
 
 ## Objetivo profesional
