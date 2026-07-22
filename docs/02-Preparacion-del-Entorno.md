@@ -25,7 +25,7 @@ Se revisaron las características de Windows y se deshabilitó la opción que es
 
 La siguiente imagen muestra las máquinas virtuales creadas en Oracle VM VirtualBox para la implementación del laboratorio YVONET.
 
-<img src="../screenshots/introduccion.png" width="700">
+<img src="../screenshots/introduccion.png" width="600">
 
 *Figura 1. Máquinas virtuales utilizadas en el laboratorio.*
 
@@ -57,7 +57,7 @@ Funciones previstas:
 
 ## Evidencia 2. Configuración de la máquina virtual Windows Server 2022
 
-<img src="../screenshots/02-servidor-configuracion.png" width="700">
+<img src="../screenshots/02-configuracion_servidor.png" width="600">
 
 *Figura 2. Configuración de recursos asignados al servidor.*
 ---
