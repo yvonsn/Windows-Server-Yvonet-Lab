@@ -87,7 +87,7 @@ El proyecto continuará evolucionando con nuevas funcionalidades y mejoras, entr
 
 **Yvón Salas Neyra**
 
-Técnica Superior en Administración de Sistemas Informáticos (ASIR) 
+Técnica Superior en Administración de Sistemas Informáticos (ASIR)
 Técnica Superior en Desarrollo de Aplicaciones Informáticas (DAI)
 Bootcamp Full Stack Developer (en curso)
 
