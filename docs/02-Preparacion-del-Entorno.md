@@ -104,6 +104,7 @@ Funciones:
     title="Presione para ampliar"
     width="400">
 </a>
+
 *Figura 3. Configuración de recursos asignados al equipo cliente.*
 
 ---
