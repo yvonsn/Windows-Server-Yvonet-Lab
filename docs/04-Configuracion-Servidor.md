@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Después de instalar Windows Server 2024 se realizó la configuración inicial del servidor antes de instalar los roles necesarios para la infraestructura YVONET.
+Después de instalar Windows Server 2022 se realizó la configuración inicial del servidor antes de instalar los roles necesarios para la infraestructura YVONET.
 
 Esta fase incluye la configuración de red, identificación del equipo y comprobaciones básicas de conectividad.
 
