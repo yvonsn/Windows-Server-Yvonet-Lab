@@ -29,7 +29,7 @@ Máquina virtual destinada a alojar la infraestructura principal del dominio.
 
 Configuración:
 
-- Sistema operativo: Windows Server 2024
+- Sistema operativo: Windows Server 2022
 - Nombre del equipo: SVR-YVONET
 - Memoria RAM: 4 GB
 - Procesadores asignados: 2 núcleos
@@ -70,7 +70,7 @@ El laboratorio está compuesto por un equipo físico con Windows 11 que ejecuta 
 
 Dentro de VirtualBox se han creado dos máquinas virtuales:
 
-- Un servidor Windows Server 2024 que actúa como infraestructura principal del dominio.
+- Un servidor Windows Server 2022 que actúa como infraestructura principal del dominio.
 - Un cliente Windows 11 utilizado para realizar pruebas de acceso, usuarios y permisos.
 
 ```text
@@ -78,7 +78,7 @@ Equipo físico
 └── Windows 11
     └── VirtualBox
         ├── SVR-YVONET
-        │   ├── Windows Server 2024
+        │   ├── Windows Server 2022
         │   ├── YVONET.LOCAL
         │   ├── Active Directory
         │   └── DNS
