@@ -54,7 +54,7 @@ Durante este procedimiento no fue necesario utilizar comandos desde la consola.
 
 Toda la configuración se realizó mediante las herramientas gráficas de Windows Server.
 
-*Nota:* Aunque la configuración se realizó mediante la interfaz gráfica de Windows Server, la administración de recursos compartidos también puede realizarse mediante PowerShell, una opción habitual en entornos empresariales.
+####**Nota:** Aunque la configuración se realizó mediante la interfaz gráfica de Windows Server, la administración de recursos compartidos también puede realizarse mediante PowerShell, una opción habitual en entornos empresariales.
 ---
 
 ## Resultado
