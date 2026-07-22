@@ -59,7 +59,7 @@ Funciones previstas:
 
 <img src="../screenshots/02-configuracion_servidor.png" width="600">
 
-*Figura 3. Configuración de recursos asignados al equipo cliente.*
+*Figura 2. Configuración de recursos asignados al servidor.*
 
 ---
 
