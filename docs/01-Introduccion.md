@@ -35,7 +35,7 @@ Cada departamento tendrá usuarios, grupos y permisos definidos según sus neces
 
 Durante el desarrollo del laboratorio se documentarán:
 
-- Configuración del servidor Windows Server 2024.
+- Configuración del servidor Windows Server 2022.
 - Creación del dominio YVONET.LOCAL.
 - Configuración de Active Directory.
 - Creación de usuarios y grupos.
@@ -48,7 +48,7 @@ Durante el desarrollo del laboratorio se documentarán:
 ## Entorno utilizado
 
 **Servidor:**
-- Sistema operativo: Windows Server 2024
+- Sistema operativo: Windows Server 2022
 - Nombre: SVR-YVONET
 - Dominio: YVONET.LOCAL
 
