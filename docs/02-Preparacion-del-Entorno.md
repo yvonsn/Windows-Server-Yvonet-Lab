@@ -21,6 +21,14 @@ Se revisaron las características de Windows y se deshabilitó la opción que es
 
 ---
 
+## Evidencias
+
+Máquinas virtuales creadas en VirtualBox para la implementación del laboratorio.
+
+<img src="../screenshots/02-maquinas_virtuales.png" width="600">
+
+---
+
 # Máquinas virtuales del laboratorio
 
 ## Servidor: SVR-YVONET
@@ -45,6 +53,12 @@ Funciones previstas:
 
 ---
 
+Configuración asignada a la máquina virtual Windows Server 2022.
+
+<img src="../screenshots/02-configuracion_servidor.png" width="600">
+
+---
+
 ## Cliente Windows 11
 
 Máquina virtual utilizada para realizar pruebas de acceso al dominio y validación de permisos.
@@ -62,6 +76,12 @@ Funciones:
 - Inicio de sesión con usuarios del dominio.
 - Pruebas de acceso a carpetas compartidas.
 - Validación de permisos.
+
+---
+
+Configuración asignada al equipo cliente Windows 11.
+
+<img src="../screenshots/02-configuracion_cliente.png" width="600">
 
 ---
 
