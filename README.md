@@ -1,4 +1,4 @@
-# Windows-Server-YVONET-Lab
+# **Windows-Server-YVONET-Lab**
 
 Laboratorio práctico de administración de sistemas Windows Server orientado a entornos empresariales y soporte IT.
 
@@ -54,29 +54,41 @@ El proyecto documenta la creación, configuración y resolución de incidencias 
 
 Este proyecto está documentado paso a paso para facilitar su seguimiento y servir como referencia para futuros laboratorios de administración de sistemas.
 
-- [01 - Introducción](docs/01-Introduccion.md)
-- [02 - Preparación del entorno](docs/02-Preparacion-del-Entorno.md)
-- [03 - Instalación de Windows Server](docs/03-Instalacion-Windows-Server.md)
-- [04 - Configuración del servidor](docs/04-Configuracion-Servidor.md)
-- [05 - Active Directory](docs/05-Active-Directory.md)
-- [06 - Unidades Organizativas](docs/06-Unidades-Organizativas.md)
-- [07 - Usuarios y Grupos](docs/07-Usuarios-y-Grupos.md)
-- [08 - Recursos Compartidos](docs/08-Recursos-Compartidos.md)
-- [09 - Permisos NTFS](docs/09-Permisos-NTFS.md)
-- [10 - Incidencias](docs/10-Incidencias.md)
-- [11 - Conclusiones](docs/11-Conclusiones.md)
+| Documento | Descripción |
+|-----------|-------------|
+| [01 - Introducción](docs/01-Introduccion.md) | Presentación del proyecto y objetivos. |
+| [02 - Preparación del entorno](docs/02-Preparacion-del-Entorno.md) | Configuración del entorno de virtualización. |
+| [03 - Instalación de Windows Server](docs/03-Instalacion-Windows-Server.md) | Instalación del sistema operativo. |
+| [04 - Configuración del servidor](docs/04-Configuracion-Servidor.md) | Configuración inicial del servidor. |
+| [05 - Active Directory](docs/05-Active-Directory.md) | Instalación y configuración de AD DS. |
+| [06 - Unidades Organizativas](docs/06-Unidades-Organizativas.md) | Organización del dominio mediante OU. |
+| [07 - Usuarios y Grupos](docs/07-Usuarios-y-Grupos.md) | Creación y administración de usuarios. |
+| [08 - Recursos Compartidos](docs/08-Recursos-Compartidos.md) | Configuración de carpetas compartidas. |
+| [09 - Permisos NTFS](docs/09-Permisos-NTFS.md) | Asignación y validación de permisos. |
+| [10 - Incidencias](docs/10-Incidencias.md) | Problemas encontrados y soluciones aplicadas. |
+| [11 - Conclusiones](docs/11-Conclusiones.md) | Resultados y aprendizajes del proyecto. |
 
-## Estado del proyecto
+# Estado del proyecto
 
-🚧 Proyecto en desarrollo.
+**Versión 1.0** ✔️
 
-Se irán incorporando nuevas configuraciones, pruebas e incidencias documentadas.
+La primera versión del laboratorio ha sido implementada y documentada.
 
-## Objetivo profesional
+El proyecto continuará evolucionando con nuevas funcionalidades y mejoras, entre ellas:
 
-Este laboratorio forma parte del desarrollo de competencias orientadas a puestos de:
+* Directivas de Grupo (GPO).
+* DHCP.
+* Automatización mediante PowerShell.
+* Copias de seguridad.
+* Capturas de pantalla del laboratorio.
+* Scripts de administración.
 
-* Soporte IT / HelpDesk L1.
-* Administración básica de sistemas.
-* Resolución de incidencias.
-* Documentación técnica.
+# Autora
+
+**Yvón Salas Neyra**
+
+Técnica Superior en Administración de Sistemas Informáticos (ASIR) 
+Técnica Superior en Desarrollo de Aplicaciones Informáticas (DAI)
+Bootcamp Full Stack Developer (en curso)
+
+GitHub: https://github.com/yvonsn
