@@ -1,4 +1,4 @@
-# Instalación de Windows Server 2024
+# Instalación de Windows Server 2022
 
 ## Introducción
 
@@ -14,7 +14,7 @@ La máquina virtual del servidor fue creada utilizando Oracle VirtualBox.
 
 Configuración asignada:
 
-- Sistema operativo: Windows Server 2024
+- Sistema operativo: Windows Server 2022
 - Nombre del equipo: SVR-YVONET
 - Memoria RAM: 4 GB
 - Procesadores: 2 núcleos
@@ -24,7 +24,7 @@ Configuración asignada:
 
 ## Instalación del sistema operativo
 
-Se realizó una instalación limpia de Windows Server 2024 utilizando la imagen ISO correspondiente.
+Se realizó una instalación limpia de Windows Server 2022 utilizando la imagen ISO correspondiente.
 
 Durante el proceso se configuraron:
 
@@ -56,4 +56,4 @@ Este nombre permitirá identificar el servidor dentro de la infraestructura del 
 
 ## Estado actual
 
-El servidor Windows Server 2024 queda preparado para continuar con la configuración de red y la instalación de roles necesarios para crear el dominio YVONET.LOCAL.
+El servidor Windows Server 2022 queda preparado para continuar con la configuración de red y la instalación de roles necesarios para crear el dominio YVONET.LOCAL.
