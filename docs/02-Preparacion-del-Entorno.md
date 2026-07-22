@@ -21,11 +21,13 @@ Se revisaron las características de Windows y se deshabilitó la opción que es
 
 ---
 
-## Evidencias
+## Evidencia 1. Entorno virtual del laboratorio
 
-Máquinas virtuales creadas en VirtualBox para la implementación del laboratorio.
+La siguiente imagen muestra las máquinas virtuales creadas en Oracle VM VirtualBox para la implementación del laboratorio YVONET.
 
-<img src="../screenshots/02-maquinas_virtuales.png" width="600">
+<img src="../screenshots/introduccion.png" width="700">
+
+*Figura 1. Máquinas virtuales utilizadas en el laboratorio.*
 
 ---
 
@@ -53,10 +55,11 @@ Funciones previstas:
 
 ---
 
-Configuración asignada a la máquina virtual Windows Server 2022.
+## Evidencia 2. Configuración de la máquina virtual Windows Server 2022
 
-<img src="../screenshots/02-configuracion_servidor.png" width="600">
+<img src="../screenshots/servidor-configuracion.png" width="700">
 
+*Figura 2. Configuración de recursos asignados al servidor.*
 ---
 
 ## Cliente Windows 11
