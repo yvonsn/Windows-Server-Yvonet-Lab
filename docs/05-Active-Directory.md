@@ -22,10 +22,6 @@ Durante el proceso se seleccionó el siguiente rol:
 
 Durante la instalación también se añadieron automáticamente las herramientas de administración necesarias para la gestión del dominio.
 
----
-
-## Captura de instalación del rol AD DS
-
 <a href="../screenshots/05-active_directory.png">
   <img
     src="../screenshots/05-active_directory.png"
@@ -64,10 +60,6 @@ La configuración utilizada fue la siguiente:
 | Tipo | Nuevo bosque |
 | Rol instalado | Active Directory Domain Services |
 | Servicio DNS | Instalado junto con AD DS |
-
----
-
-## Captura de creación del dominio
 
 <a href="../screenshots/05-nuevo_bosque.png">
   <img
