@@ -26,9 +26,15 @@ Durante la instalación también se añadieron automáticamente las herramientas
 
 ## Captura de instalación del rol AD DS
 
-**Imagen 05.1 - Instalación del rol Active Directory Domain Services**
+<a href="../screenshots/05-active_directory.png">
+  <img
+    src="../screenshots/05-active_directory.png"
+    alt="Instalación de Active Directory"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-![Instalación del rol AD DS](capturas/ad-ds-instalacion.png)
+*Figura 1. Instalación del rol Active Directory Domain Services.*
 
 ---
 
@@ -63,9 +69,16 @@ La configuración utilizada fue la siguiente:
 
 ## Captura de creación del dominio
 
-**Imagen 05.2 - Creación del dominio YVONET.LOCAL**
+<a href="../screenshots/05-nuevo_bosque.png">
+  <img
+    src="../screenshots/05-nuevo_bosque.png"
+    alt="Creación del dominio"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-![Creación del dominio](capturas/creacion-dominio.png)
+*Figura 2. Creación del dominio.*
+
 
 ---
 
