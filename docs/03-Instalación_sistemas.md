@@ -24,19 +24,44 @@ Durante el proceso de instalación se configuraron los parámetros básicos del 
 
 Como primer paso del asistente de instalación, se seleccionaron el idioma, el formato de hora y moneda, y la distribución del teclado que se utilizarían durante el proceso.
 
-![Configuración de idioma](screenshots/03-idioma.png)
+<a href="../screenshots/03-idioma.png">
+  <img
+    src="../screenshots/03-idioma.png"
+    alt="Selección del idioma"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 1. Selección del idioma.*
 
 ### Selección de la edición del sistema
 
 A continuación, se seleccionó la edición de **Windows Server 2022** que sería utilizada para el desarrollo del laboratorio.
 
-![Selección de la edición](screenshots/03-edicion_servidor.png)
+<a href="../screenshots/03-edicion_servidor.png">
+  <img
+    src="../screenshots/03-edicion_servidor.png"
+    alt="Edición del sistema"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 2. Selección de la edición.*
 
 ### Finalización de la instalación
 
 Una vez completado el proceso de instalación, el sistema operativo inició correctamente, quedando listo para su configuración en las siguientes fases del laboratorio.
 
-![Primer inicio de Windows Server 2022](screenshots/03-primer-inicio.png)
+<a href="../screenshots/03-primer_inicio.png">
+  <img
+    src="../screenshots/03-primer_inicio.png"
+    alt="Primer inicio del sistema"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 2. Primer inicio.*
+
 ---
 
 # 2. Instalación de Windows 11
@@ -49,7 +74,15 @@ Al igual que en el servidor, durante la instalación se configuraron los paráme
 
 Finalizada la instalación, el cliente inició correctamente y quedó preparado para las configuraciones que se realizarán en la siguiente fase.
 
-![Primer inicio de Windows 11](screenshots/03-primer_inicio_cliente.png)
+<a href="../screenshots/03-primer_inicio_cliente.png">
+  <img
+    src="../screenshots/03-primer_inicio_cliente.png"
+    alt="Primer inicio del sistema"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 1. Primer inicio.*
 
 ---
 
