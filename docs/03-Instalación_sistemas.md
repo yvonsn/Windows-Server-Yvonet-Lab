@@ -14,12 +14,6 @@ La instalación de **Windows Server 2022** se realizó utilizando la imagen ISO 
 
 Durante el proceso de instalación se configuraron los parámetros básicos del sistema, como el idioma, el formato regional y la edición del sistema operativo.
 
-# 1. Instalación de Windows Server 2022
-
-La instalación de **Windows Server 2022** se realizó utilizando la imagen ISO oficial previamente configurada en la máquina virtual del servidor.
-
-Durante el proceso de instalación se configuraron los parámetros básicos del sistema, como el idioma, el formato regional y la edición del sistema operativo.
-
 ### Configuración de idioma
 
 Como primer paso del asistente de instalación, se seleccionaron el idioma, el formato de hora y moneda, y la distribución del teclado que se utilizarían durante el proceso.
