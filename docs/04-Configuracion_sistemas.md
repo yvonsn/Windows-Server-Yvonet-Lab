@@ -105,15 +105,6 @@ El nombre asignado al equipo cliente es:
 
 Este nombre permite identificar la máquina dentro de la infraestructura y facilitará su administración una vez sea agregada al dominio.
 
-<a href="../screenshots/04-nombre_cliente.png">
-  <img
-    src="../screenshots/04-nombre_cliente.png"
-    alt="Nombre del cliente"
-    title="Presione para ampliar"
-    width="400">
-</a>
-
-*Figura 1. Nombre del cliente.*
 ---
 
 # Comprobaciones de conectividad
