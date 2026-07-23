@@ -36,9 +36,15 @@ El nombre asignado al servidor es:
 
 Este nombre permite identificar el equipo dentro de la infraestructura y será utilizado posteriormente como servidor principal del dominio.
 
-**Captura realizada:**
+<a href="../screenshots/04-nombre_servidor.png">
+  <img
+    src="../screenshots/04-nombre_servidor.png"
+    alt="Nombre del servidor"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-- Nombre del equipo configurado en Windows Server.
+*Figura 1. Nombre del servidor.*
 
 ---
 
@@ -75,14 +81,19 @@ El servidor DNS se establece apuntando al servidor **SVR-YVONET**, ya que poster
 
 El nombre asignado al equipo cliente es:
 
-**PC-YVONET01**
+**CLIENTE 01**
 
 Este nombre permite identificar la máquina dentro de la infraestructura y facilitará su administración una vez sea agregada al dominio.
 
-**Captura realizada:**
+<a href="../screenshots/04-nombre_cliente.png">
+  <img
+    src="../screenshots/04-nombre_cliente.png"
+    alt="Nombre del cliente"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-- Nombre del equipo cliente configurado en Windows.
-
+*Figura 1. Nombre del cliente.*
 ---
 
 # Comprobaciones de conectividad
@@ -93,3 +104,13 @@ La prueba se realizó desde el equipo cliente hacia el servidor mediante el coma
 
 ```cmd
 ping 192.168.10.10
+
+<a href="../screenshots/04-ping.png">
+  <img
+    src="../screenshots/04-ping.png"
+    alt="Comprobación de conectividad"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 1. Comprobación de conectividad.*
