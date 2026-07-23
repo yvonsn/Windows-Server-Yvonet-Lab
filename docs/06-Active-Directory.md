@@ -1,99 +1,123 @@
-# Instalación y configuración de Active Directory
+# 05. Active Directory Domain Services (AD DS)
 
-## Introducción
+## Instalación y configuración de Active Directory
 
-Una vez finalizada la configuración inicial del servidor, se procedió a instalar el rol **Active Directory Domain Services (AD DS)**.
+### Introducción
 
-Este servicio permite administrar de forma centralizada usuarios, equipos, grupos y recursos de una red empresarial.
+Una vez finalizada la configuración inicial del servidor, se procedió a instalar y configurar el rol **Active Directory Domain Services (AD DS)**.
 
----
+Este servicio permite administrar de forma centralizada usuarios, equipos, grupos y recursos dentro de una red empresarial mediante una estructura basada en dominios.
 
-## Instalación del rol AD DS
-
-La instalación se realizó desde el **Administrador del servidor** mediante el asistente **Agregar roles y características**.
-
-Rol instalado:
-
-- Active Directory Domain Services (AD DS)
-
-Durante la instalación también se añadieron automáticamente las herramientas de administración necesarias.
+Para la infraestructura **YVONET**, el servidor **SVR-YVONET** será configurado como controlador de dominio principal utilizando el dominio:
 
 ---
 
-## Promoción del servidor
+# Instalación del rol AD DS
 
-Una vez instalado el rol, el servidor fue promovido a **Controlador de Dominio**.
+La instalación del servicio se realizó desde el **Administrador del servidor** mediante el asistente:
 
-Se creó un nuevo bosque con el dominio:
+Durante el proceso se seleccionó el siguiente rol:
 
-```
-YVONET.LOCAL
-```
+- **Active Directory Domain Services (AD DS)**
 
-El servidor pasó a ser el primer controlador de dominio de la infraestructura.
+Durante la instalación también se añadieron automáticamente las herramientas de administración necesarias para la gestión del dominio.
+
+---
+
+## Captura de instalación del rol AD DS
+
+**Imagen 05.1 - Instalación del rol Active Directory Domain Services**
+
+![Instalación del rol AD DS](capturas/ad-ds-instalacion.png)
+
+---
+
+# Promoción del servidor a controlador de dominio
+
+Una vez instalado el rol AD DS, el servidor fue promovido a **Controlador de Dominio**.
+
+Al tratarse de una infraestructura nueva, se seleccionó la opción:
+
+Como nombre del dominio se estableció:
+
+---
+
+
+Después de completar el asistente de configuración, el servidor pasó a ser el primer controlador de dominio de la infraestructura.
 
 ---
 
 ## Configuración del dominio
 
-Configuración utilizada:
+La configuración utilizada fue la siguiente:
 
 | Parámetro | Valor |
 |---|---|
 | Dominio | YVONET.LOCAL |
 | Servidor | SVR-YVONET |
 | Tipo | Nuevo bosque |
-| DNS | Instalado junto con AD DS |
+| Rol instalado | Active Directory Domain Services |
+| Servicio DNS | Instalado junto con AD DS |
 
 ---
 
-## Reinicio del servidor
+## Captura de creación del dominio
 
-Después de finalizar la promoción del controlador de dominio, el servidor se reinició automáticamente para aplicar la nueva configuración.
+**Imagen 05.2 - Creación del dominio YVONET.LOCAL**
 
-A partir de este momento el inicio de sesión pasó a realizarse utilizando las credenciales del dominio.
-
----
-
-## Comprobaciones realizadas
-
-Tras completar la instalación se verificó:
-
-- Correcta instalación de Active Directory.
-- Funcionamiento del servicio DNS.
-- Acceso a las herramientas administrativas.
-- Correcto funcionamiento del controlador de dominio.
+![Creación del dominio](capturas/creacion-dominio.png)
 
 ---
 
-## Comandos utilizados
+# Configuración del servicio DNS
 
-### Información de red
+Durante la promoción del servidor como controlador de dominio se instaló automáticamente el servicio **DNS**.
+
+Este servicio es necesario para el funcionamiento de Active Directory, ya que permite resolver los nombres de los equipos y localizar los servicios del dominio.
+
+Configuración generada:
+
+| Parámetro | Valor |
+|---|---|
+| Servidor DNS | SVR-YVONET |
+| Dirección IP DNS | 192.168.10.10 |
+| Zona DNS | YVONET.LOCAL |
+
+La zona DNS creada permitirá la comunicación entre los equipos pertenecientes al dominio.
+
+---
+
+## Captura de la zona DNS
+
+**Imagen 05.3 - Zona DNS del dominio YVONET.LOCAL**
+
+![Zona DNS](capturas/zona-dns.png)
+
+---
+
+# Reinicio del servidor
+
+Después de finalizar la promoción del servidor a controlador de dominio, el sistema se reinició automáticamente para aplicar la nueva configuración.
+
+A partir de este momento, el inicio de sesión del servidor pasó a realizarse utilizando las credenciales del dominio **YVONET.LOCAL**.
+
+---
+
+# Comprobaciones realizadas
+
+Tras completar la instalación y configuración de Active Directory se realizaron las siguientes comprobaciones:
+
+- Verificación de la correcta instalación de Active Directory.
+- Comprobación del funcionamiento del servicio DNS.
+- Acceso a las herramientas administrativas del dominio.
+- Verificación del correcto funcionamiento del controlador de dominio.
+- Comprobación de la autenticación dentro del dominio.
+
+---
+
+# Comandos utilizados
+
+## Información de red
 
 ```cmd
 ipconfig /all
-```
-
-Permite verificar la configuración IP y el servidor DNS.
-
-### Comprobación del nombre del equipo
-
-```cmd
-hostname
-```
-
-Muestra el nombre del servidor.
-
-### Verificación del dominio
-
-```cmd
-whoami
-```
-
-Permite comprobar el usuario autenticado en el dominio.
-
----
-
-## Resultado
-
-El servidor quedó configurado como controlador de dominio de **YVONET.LOCAL**, preparado para la creación de usuarios, grupos y unidades organizativas.
