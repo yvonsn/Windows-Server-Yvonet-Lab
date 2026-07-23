@@ -50,8 +50,8 @@ Antes de iniciar la instalación se seleccionó el idioma, el formato regional y
 
 Durante la instalación se seleccionó la edición **Windows Server 2022 Standard Evaluation (Experiencia de escritorio)**.
 
-<a href="../screenshots/03-02-seleccion_edicion.png">
-    <img src="../screenshots/03-02-seleccion_edicion.png"
+<a href="../screenshots/03-02-edicion_servidor.png">
+    <img src="../screenshots/03-02-edicion_servidor.png"
          alt="Selección de la edición de Windows Server 2022"
          title="Presione para ampliar"
          width="400">
@@ -71,8 +71,8 @@ Después de completar la instalación se realizaron las tareas iniciales:
 
 ### Evidencia 3. Primer inicio de Windows Server
 
-<a href="../screenshots/03-03-primer_inicio.png">
-  <img src="../screenshots/03-03-primer_inicio.png"
+<a href="../screenshots/03-03-priemer_inicio.png">
+  <img src="../screenshots/03-03-priemer_inicio.png"
        alt="Primer inicio de Windows Server 2022"
        title="Presione para ampliar"
        width="400">
