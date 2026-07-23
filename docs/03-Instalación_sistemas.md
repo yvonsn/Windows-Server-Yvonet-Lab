@@ -24,19 +24,19 @@ Durante el proceso de instalación se configuraron los parámetros básicos del 
 
 Como primer paso del asistente de instalación, se seleccionaron el idioma, el formato de hora y moneda, y la distribución del teclado que se utilizarían durante el proceso.
 
-![Configuración de idioma](screenshots/03-server-idioma.png)
+![Configuración de idioma](screenshots/03-idioma.png)
 
 ### Selección de la edición del sistema
 
 A continuación, se seleccionó la edición de **Windows Server 2022** que sería utilizada para el desarrollo del laboratorio.
 
-![Selección de la edición](screenshots/03-server-edicion.png)
+![Selección de la edición](screenshots/03-edicion_servidor.png)
 
 ### Finalización de la instalación
 
 Una vez completado el proceso de instalación, el sistema operativo inició correctamente, quedando listo para su configuración en las siguientes fases del laboratorio.
 
-![Primer inicio de Windows Server 2022](screenshots/03-server-primer-inicio.png)
+![Primer inicio de Windows Server 2022](screenshots/03-primer-inicio.png)
 ---
 
 # 2. Instalación de Windows 11
@@ -45,21 +45,11 @@ Posteriormente se realizó la instalación del sistema operativo **Windows 11** 
 
 Al igual que en el servidor, durante la instalación se configuraron los parámetros básicos del sistema antes de completar el primer inicio.
 
-### Inicio de la instalación
-
-![Inicio de la instalación de Windows 11](screenshots/win11-inicio-instalacion.png)
-
-### Configuración inicial
-
-Durante el asistente de instalación se configuraron las opciones regionales necesarias para completar la instalación del sistema operativo.
-
-![Configuración inicial de Windows 11](screenshots/win11-configuracion.png)
-
 ### Finalización de la instalación
 
 Finalizada la instalación, el cliente inició correctamente y quedó preparado para las configuraciones que se realizarán en la siguiente fase.
 
-![Primer inicio de Windows 11](screenshots/win11-primer-inicio.png)
+![Primer inicio de Windows 11](screenshots/03-primer_inicio_cliente.png)
 
 ---
 
