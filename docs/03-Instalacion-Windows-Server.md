@@ -15,7 +15,7 @@ La máquina virtual del servidor fue creada utilizando Oracle VirtualBox.
 Configuración asignada:
 
 - Sistema operativo: Windows Server 2022
-- Nombre del equipo: SVR-YVONET
+- Nombre del equipo: YVONET
 - Memoria RAM: 4 GB
 - Procesadores: 2 núcleos
 - Almacenamiento: 80 GB
@@ -33,7 +33,32 @@ Durante el proceso se configuraron:
 - Instalación del sistema operativo.
 - Creación de la contraseña inicial del administrador local.
 
----
+### Evidencia 1. Selección del idioma y configuración regional
+
+Antes de iniciar la instalación se seleccionó el idioma, el formato regional y la distribución del teclado.
+
+<a href="../screenshots/03-01-idioma.png">
+    <img src="../screenshots/03-01-idioma.png"
+         alt="Selección del idioma durante la instalación"
+         title="Presione para ampliar"
+         width="400">
+</a>
+
+*Figura 1. Selección del idioma y configuración regional.*
+
+### Evidencia 2. Selección de la edición
+
+Durante la instalación se seleccionó la edición **Windows Server 2022 Standard Evaluation (Experiencia de escritorio)**.
+
+<a href="../screenshots/03-02-seleccion_edicion.png">
+    <img src="../screenshots/03-02-seleccion_edicion.png"
+         alt="Selección de la edición de Windows Server 2022"
+         title="Presione para ampliar"
+         width="400">
+</a>
+
+*Figura 2. Selección de la edición de Windows Server 2022.*
+
 
 ## Configuración inicial del servidor
 
@@ -43,6 +68,17 @@ Después de completar la instalación se realizaron las tareas iniciales:
 - Revisión del estado del sistema.
 - Instalación de actualizaciones disponibles.
 - Configuración básica del entorno.
+
+### Evidencia 3. Primer inicio de Windows Server
+
+<a href="../screenshots/03-03-primer_inicio.png">
+  <img src="../screenshots/03-03-primer_inicio.png"
+       alt="Primer inicio de Windows Server 2022"
+       title="Presione para ampliar"
+       width="400">
+</a>
+
+*Figura 3. Primer inicio de Windows Server 2022 tras completar la instalación.*
 
 ---
 
