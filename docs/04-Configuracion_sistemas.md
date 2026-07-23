@@ -124,6 +124,7 @@ La prueba se realizó desde el equipo cliente hacia el servidor mediante el coma
 
 ```cmd
 ping 192.168.10.10
+```
 
 <a href="../screenshots/04-ping.png">
   <img
