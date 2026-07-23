@@ -22,7 +22,7 @@ Una vez finalizada esta fase, el servidor y el cliente quedan operativos y prepa
 - Configuración inicial.
 - Primer inicio del servidor.
 
-![Instalación Windows Server 2022](capturas/03-01-idioma.png)
+![Instalación Windows Server 2022](03-01-idioma.png)
 
 
 ## 2. Instalación de Windows 11
