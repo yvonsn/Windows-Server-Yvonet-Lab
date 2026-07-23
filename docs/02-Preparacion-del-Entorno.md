@@ -39,7 +39,7 @@ La siguiente imagen muestra las máquinas virtuales creadas en Oracle VM Virtual
 
 # Máquinas virtuales del laboratorio
 
-## Servidor: SVR-YVONET
+## Servidor: YVONET
 
 Máquina virtual destinada a alojar la infraestructura principal del dominio.
 
@@ -75,7 +75,7 @@ Funciones previstas:
 
 ---
 
-## Cliente Windows 11
+## Cliente Windows 11: Cliente 01
 
 Máquina virtual utilizada para realizar pruebas de acceso al dominio y validación de permisos.
 
@@ -120,14 +120,15 @@ Dentro de VirtualBox se han creado dos máquinas virtuales:
 ```text
 Equipo físico
 └── Windows 11
-    └── VirtualBox
-        ├── SVR-YVONET
+    └── VirtualBox 
+        ├── YVONET 
         │   ├── Windows Server 2022
         │   ├── YVONET.LOCAL
         │   ├── Active Directory
         │   └── DNS
         │
-        └── Cliente Windows 11
+        └── Cliente 01 
+            ├── Windows 11
             └── Equipo unido al dominio
 ```
 ---
