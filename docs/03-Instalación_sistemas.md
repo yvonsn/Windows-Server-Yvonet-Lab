@@ -14,28 +14,29 @@ La instalación de **Windows Server 2022** se realizó utilizando la imagen ISO 
 
 Durante el proceso de instalación se configuraron los parámetros básicos del sistema, como el idioma, el formato regional y la edición del sistema operativo.
 
-### Inicio de la instalación
+# 1. Instalación de Windows Server 2022
 
-![Inicio de la instalación de Windows Server 2022](screenshots/server-inicio-instalacion.png)
+La instalación de **Windows Server 2022** se realizó utilizando la imagen ISO oficial previamente configurada en la máquina virtual del servidor.
+
+Durante el proceso de instalación se configuraron los parámetros básicos del sistema, como el idioma, el formato regional y la edición del sistema operativo.
 
 ### Configuración de idioma
 
-Se seleccionó el idioma, el formato de hora y moneda, así como la distribución del teclado que se utilizarán durante la instalación.
+Como primer paso del asistente de instalación, se seleccionaron el idioma, el formato de hora y moneda, y la distribución del teclado que se utilizarían durante el proceso.
 
-![Configuración de idioma](screenshots/server-idioma.png)
+![Configuración de idioma](screenshots/03-server-idioma.png)
 
-### Selección de la edición
+### Selección de la edición del sistema
 
-Se seleccionó la edición de **Windows Server 2022** que será utilizada durante el desarrollo del laboratorio.
+A continuación, se seleccionó la edición de **Windows Server 2022** que sería utilizada para el desarrollo del laboratorio.
 
-![Selección de la edición](screenshots/server-edicion.png)
+![Selección de la edición](screenshots/03-server-edicion.png)
 
 ### Finalización de la instalación
 
-Una vez completado el proceso, el sistema operativo quedó instalado correctamente y listo para su configuración.
+Una vez completado el proceso de instalación, el sistema operativo inició correctamente, quedando listo para su configuración en las siguientes fases del laboratorio.
 
-![Primer inicio de Windows Server 2022](screenshots/server-primer-inicio.png)
-
+![Primer inicio de Windows Server 2022](screenshots/03-server-primer-inicio.png)
 ---
 
 # 2. Instalación de Windows 11
