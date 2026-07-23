@@ -26,6 +26,16 @@ Configuración utilizada:
 | Máscara de red | 255.255.255.0 |
 | Puerta de enlace | No configurada |
 
+<a href="../screenshots/04-configuracion_ip_servidor.png">
+  <img
+    src="../screenshots/04-configuracion_ip_servidor.png"
+    alt="Configuración de la IP del servidor"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 1. Configuración de la IP del servidor.*
+
 ---
 
 ## Identificación del servidor
@@ -74,6 +84,16 @@ Configuración utilizada:
 | Servidor DNS preferido | 192.168.10.10 |
 
 El servidor DNS se establece apuntando al servidor **SVR-YVONET**, ya que posteriormente será el encargado de gestionar la resolución de nombres del dominio **YVONET.LOCAL**.
+
+<a href="../screenshots/04-configuracion_ip_cliente.png">
+  <img
+    src="../screenshots/04-configuracion_ip_cliente.png"
+    alt="Configuración de la IP del cliente"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+*Figura 1. Configuración de la IP del cliente.*
 
 ---
 
