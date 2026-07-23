@@ -22,7 +22,7 @@ Una vez finalizada esta fase, el servidor y el cliente quedan operativos y prepa
 - Configuración inicial.
 - Primer inicio del servidor.
 
-![Instalación Windows Server 2022](capturas/instalacion-server.png)
+![Instalación Windows Server 2022](capturas/03-01-idioma.png)
 
 
 ## 2. Instalación de Windows 11
@@ -42,7 +42,7 @@ Nombre del equipo:
 
 **SVR-YVONET**
 
-![Nombre servidor](capturas/nombre-servidor.png)
+![Nombre servidor](capturas/03-03-priemer_inicio.png)
 
 
 ### Cliente
