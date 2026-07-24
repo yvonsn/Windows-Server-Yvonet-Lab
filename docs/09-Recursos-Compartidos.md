@@ -55,9 +55,6 @@ Visualización del recurso compartido creado dentro de la administración del se
     width="400">
 </a>
 
-
-**La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.**
-
 ---
 
 ## Herramientas utilizadas
