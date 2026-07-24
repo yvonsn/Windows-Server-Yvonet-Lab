@@ -33,6 +33,7 @@ Departamentos
 ├── Administración
 └── RRHH
 ```
+
 Posteriormente se compartió la carpeta **Departamentos** para permitir el acceso desde los equipos pertenecientes al dominio.
 
 <a href="../screenshots/08-adm_carpetas_compartidas.png">
@@ -55,7 +56,7 @@ Visualización del recurso compartido creado dentro de la administración del se
 </a>
 
 
-###La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.
+####La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.
 ---
 
 
