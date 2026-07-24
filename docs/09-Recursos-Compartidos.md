@@ -44,7 +44,6 @@ Posteriormente se compartió la carpeta **Departamentos** para permitir el acces
     width="400">
 </a>
 
-
 Visualización del recurso compartido creado dentro de la administración del servidor.
 
 <a href="../screenshots/08-propiedades_carpeta_compartida.png">
@@ -56,9 +55,9 @@ Visualización del recurso compartido creado dentro de la administración del se
 </a>
 
 
-####La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.
----
+**La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.**
 
+---
 
 ## Herramientas utilizadas
 
