@@ -43,6 +43,7 @@ Posteriormente se compartió la carpeta **Departamentos** para permitir el acces
     width="400">
 </a>
 
+
 Visualización del recurso compartido creado dentro de la administración del servidor.
 
 <a href="../screenshots/08-propiedades_carpeta_compartida.png">
