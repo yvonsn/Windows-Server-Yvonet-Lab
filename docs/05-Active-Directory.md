@@ -128,3 +128,15 @@ Tras completar la instalación y configuración de Active Directory se realizaro
 
 ```cmd
 ipconfig /all
+
+
+# Herramientas administrativas de Active Directory
+
+Menú de herramientas del Administrador del servidor tras la instalación de Active Directory Domain Services. Se observan las consolas administrativas utilizadas para gestionar el dominio, el servicio DNS y el resto de componentes de la infraestructura.
+<a href="../screenshots/05-herramientas_administrativas.png">
+  <img
+    src="../screenshots/05-herramientas_administrativas.png"
+    alt="Herramientas administrativas instaladas"
+    title="Presione para ampliar"
+    width="400">
+</a>
