@@ -44,6 +44,7 @@ Posteriormente se compartió la carpeta **Departamentos** para permitir el acces
     width="400">
 </a>
 
+---
 
 Visualización del recurso compartido creado dentro de la administración del servidor.
 
@@ -51,6 +52,18 @@ Visualización del recurso compartido creado dentro de la administración del se
   <img
     src="../screenshots/08-propiedades_carpeta_compartida.png"
     alt="Propiedades de la carpeta compartida"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+---
+
+Demostración que el recurso compartido funciona desde un equipo cliente del dominio, no solo desde el servidor.
+
+<a href="../screenshots/08-acceso_desde_cliente.png">
+  <img
+    src="../screenshots/08-acceso_desde_cliente.png"
+    alt="Acceso desde un usuario del dominio"
     title="Presione para ampliar"
     width="400">
 </a>
