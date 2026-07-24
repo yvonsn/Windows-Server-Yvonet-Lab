@@ -90,13 +90,15 @@ Configuración generada:
 
 La zona DNS creada permitirá la comunicación entre los equipos pertenecientes al dominio.
 
----
+<a href="../screenshots/05-DNS.png">
+  <img
+    src="../screenshots/05-DNS.png"
+    alt="Configuración del servicio DNS"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-## Captura de la zona DNS
-
-**Imagen 05.3 - Zona DNS del dominio YVONET.LOCAL**
-
-![Zona DNS](capturas/zona-dns.png)
+*Figura 3. Configuración del servicio DNS.*
 
 ---
 
