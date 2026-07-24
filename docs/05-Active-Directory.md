@@ -128,7 +128,7 @@ Tras completar la instalación y configuración de Active Directory se realizaro
 
 ```cmd
 ipconfig /all
-
+```
 
 # Herramientas administrativas de Active Directory
 
