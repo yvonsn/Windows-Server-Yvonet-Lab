@@ -68,6 +68,14 @@ Demostración que el recurso compartido funciona desde un equipo cliente del dom
     width="400">
 </a>
 
+<a href="../screenshots/08-usuario_conectado.png">
+  <img
+    src="../screenshots/08-usuario_conectado.png"
+    alt="Evidencia de usuario conectado"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
 ---
 
 ## Herramientas utilizadas
