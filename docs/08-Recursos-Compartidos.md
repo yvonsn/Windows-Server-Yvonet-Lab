@@ -58,7 +58,7 @@ Visualización del recurso compartido creado dentro de la administración del se
 
 ---
 
-Demostración que el recurso compartido funciona desde un equipo cliente del dominio, no solo desde el servidor.
+##Demostración que el recurso compartido funciona desde un equipo cliente del dominio, no solo desde el servidor.
 
 <a href="../screenshots/08-usuario_conectado.png">
   <img
