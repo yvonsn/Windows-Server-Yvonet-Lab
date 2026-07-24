@@ -27,12 +27,17 @@ La siguiente tabla muestra la organización de los usuarios:
 Cada usuario fue creado utilizando la consola **Usuarios y equipos de Active Directory** y ubicado dentro de la Unidad Organizativa correspondiente.
 
 ---
-
 ## Captura de creación de un usuario
 
-**Imagen 07.1 - Creación de un usuario en Active Directory**
+<a href="../screenshots/07-crear_usuario.png">
+  <img
+    src="../screenshots/07-crear_usuario.png"
+    alt="Creación de un usuario"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-![Creación de usuario](capturas/crear-usuario.png)
+*Figura 1. Creación de un usuario.*
 
 ---
 
