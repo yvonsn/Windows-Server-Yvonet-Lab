@@ -45,13 +45,15 @@ El procedimiento realizado fue el siguiente:
 5. Introducir el nombre de la Unidad Organizativa.
 6. Repetir el proceso para cada uno de los departamentos definidos.
 
----
+<a href="../screenshots/06-unidad_organizativa.png">
+  <img
+    src="../screenshots/06-unidad_organizativa.png"
+    alt="Creación de una unidad organizativa"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-## Captura de creación de las Unidades Organizativas
-
-**Imagen 06.1 - Creación de una Unidad Organizativa**
-
-![Creación de una OU](capturas/crear-ou.png)
+*Figura 1. Creación de una unidad organizativa.*
 
 ---
 
@@ -71,13 +73,15 @@ YVONET.LOCAL
 
 Esta organización facilitará la administración de usuarios, grupos y equipos dentro del dominio.
 
----
+<a href="../screenshots/06-usuarios_equipos.png">
+  <img
+    src="../screenshots/06-usuarios_equipos.png"
+    alt="Usuarios y equipos de Active Directory"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
-## Captura de la estructura del dominio
-
-**Imagen 06.2 - Estructura de las Unidades Organizativas**
-
-![Estructura de las OU](capturas/estructura-ou.png)
+*Figura 2. Estructura de las Unidades Organizativas.*
 
 ---
 
