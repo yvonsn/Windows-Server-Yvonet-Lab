@@ -35,8 +35,6 @@ Departamentos
 ```
 Posteriormente se compartió la carpeta **Departamentos** para permitir el acceso desde los equipos pertenecientes al dominio.
 
-La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.
-
 <a href="../screenshots/08-adm_carpetas_compartidas.png">
   <img
     src="../screenshots/08-adm_carpetas_compartidas.png"
@@ -45,6 +43,17 @@ La configuración de los permisos específicos se realizó posteriormente median
     width="400">
 </a>
 
+Visualización del recurso compartido creado dentro de la administración del servidor.
+
+<a href="../screenshots/08-propiedades_carpeta_compartida.png">
+  <img
+    src="../screenshots/08-propiedades_carpeta_compartida.png"
+    alt="Propiedades de la carpeta compartida"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+La configuración de los permisos específicos se realizó posteriormente mediante permisos NTFS.
 ---
 
 
