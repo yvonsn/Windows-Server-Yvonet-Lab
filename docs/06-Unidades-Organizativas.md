@@ -73,9 +73,9 @@ YVONET.LOCAL
 
 Esta organización facilitará la administración de usuarios, grupos y equipos dentro del dominio.
 
-<a href="../screenshots/06-usuarios_equipos.png">
+<a href="../screenshots/06-usuarios_equipos-ad.png">
   <img
-    src="../screenshots/06-usuarios_equipos.png"
+    src="../screenshots/06-usuarios_equipos-ad.png"
     alt="Usuarios y equipos de Active Directory"
     title="Presione para ampliar"
     width="400">
