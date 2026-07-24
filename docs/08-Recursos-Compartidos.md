@@ -68,7 +68,7 @@ Demostración que el recurso compartido funciona desde un equipo cliente del dom
     width="400">
 </a>
 
-Inicio de sesión del usuario Leo en el equipo cliente 01 
+*Inicio de sesión del usuario Leo en el equipo cliente 01* 
 
 <a href="../screenshots/08-acceso_desde_cliente.png">
   <img
@@ -78,7 +78,7 @@ Inicio de sesión del usuario Leo en el equipo cliente 01
     width="400">
 </a>
 
-Acceso al recurso compartido desde el cliente 01 
+*Acceso al recurso compartido desde el cliente 01* 
 
 ---
 
