@@ -60,6 +60,16 @@ Visualización del recurso compartido creado dentro de la administración del se
 
 Demostración que el recurso compartido funciona desde un equipo cliente del dominio, no solo desde el servidor.
 
+<a href="../screenshots/08-usuario_conectado.png">
+  <img
+    src="../screenshots/08-usuario_conectado.png"
+    alt="Evidencia de usuario conectado"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+** Inicio de sesión del usuario Leo en el equipo cliente 01 ** 
+
 <a href="../screenshots/08-acceso_desde_cliente.png">
   <img
     src="../screenshots/08-acceso_desde_cliente.png"
@@ -68,13 +78,7 @@ Demostración que el recurso compartido funciona desde un equipo cliente del dom
     width="400">
 </a>
 
-<a href="../screenshots/08-usuario_conectado.png">
-  <img
-    src="../screenshots/08-usuario_conectado.png"
-    alt="Evidencia de usuario conectado"
-    title="Presione para ampliar"
-    width="400">
-</a>
+** Acceso al recurso compartido desde el cliente 01 ** 
 
 ---
 
