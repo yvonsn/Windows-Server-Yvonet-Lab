@@ -27,17 +27,16 @@ La siguiente tabla muestra la organización de los usuarios:
 Cada usuario fue creado utilizando la consola **Usuarios y equipos de Active Directory** y ubicado dentro de la Unidad Organizativa correspondiente.
 
 ---
+
 ## Captura de creación de un usuario
 
-<a href="../screenshots/07-crear_usuario.png">
+<a href="../screenshots/07-creacion_usuario.png">
   <img
-    src="../screenshots/07-crear_usuario.png"
+    src="../screenshots/07-creacion_usuario.png"
     alt="Creación de un usuario"
     title="Presione para ampliar"
     width="400">
 </a>
-
-*Figura 1. Creación de un usuario.*
 
 ---
 
@@ -72,9 +71,13 @@ Esta organización facilita la administración y localización de los usuarios d
 
 ## Captura de la estructura de usuarios
 
-**Imagen 07.2 - Usuarios organizados por Unidades Organizativas**
-
-![Usuarios por OU](capturas/usuarios-ou.png)
+<a href="../screenshots/07-equipos_usuarios.png">
+  <img
+    src="../screenshots/07-equipos_usuarios.png"
+    alt="Estructura de usuarios"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
 ---
 
@@ -88,11 +91,15 @@ Los grupos se organizaron según las necesidades de cada departamento y posterio
 
 ---
 
-## Captura de creación de un grupo
+## Captura de creación de un grupo de seguridad
 
-**Imagen 07.3 - Creación de un grupo de seguridad**
-
-![Creación de grupo](capturas/crear-grupo.png)
+<a href="../screenshots/07-grupo_seguridad.png">
+  <img
+    src="../screenshots/07-grupo_seguridad.png"
+    alt="Creacion de un grupo de seguridad"
+    title="Presione para ampliar"
+    width="400">
+</a>
 
 ---
 
