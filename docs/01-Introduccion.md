@@ -55,7 +55,7 @@ Durante el desarrollo del laboratorio se documentarán:
 **Cliente:**
 - Sistema operativo: Windows 11
 
-<img src="../screenshots/intro.jpg" width="600">
+<img src="../screenshots/01-intro.jpg" width="400">
 
 ---
 

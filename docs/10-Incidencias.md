@@ -51,17 +51,15 @@ Se realizaron las siguientes comprobaciones:
 
 ## Solución aplicada
 
-Se identificó que una característica de Windows estaba interfiriendo con VirtualBox.
+Durante el diagnóstico se comprobó que **Hyper-V**, la tecnología de virtualización de Microsoft, estaba habilitado en Windows 11 y estaba interfiriendo con el funcionamiento esperado de VirtualBox en el equipo utilizado para el laboratorio.
 
-Después de desactivar la opción correspondiente desde:
+Se accedió a:
 
-```
-Panel de control
-→ Programas
-→ Activar o desactivar las características de Windows
-```
+**Panel de control → Programas → Activar o desactivar las características de Windows**
 
-las máquinas virtuales pudieron funcionar correctamente.
+y se deshabilitó **Hyper-V**.
+
+Después de aplicar el cambio y reiniciar el equipo, se volvió a comprobar el funcionamiento de VirtualBox y las máquinas virtuales pudieron iniciarse correctamente.
 
 ---
 

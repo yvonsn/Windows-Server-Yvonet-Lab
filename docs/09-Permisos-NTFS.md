@@ -68,6 +68,14 @@ La configuración se realizó mediante:
 
 Para cada carpeta departamental se añadieron los usuarios correspondientes y se asignaron los permisos necesarios.
 
+<a href="../screenshots/ntfs.png">
+  <img
+    src="../screenshots/ntfs.png"
+    alt="Carpetas compartidas"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
 ---
 
 ## Pruebas realizadas

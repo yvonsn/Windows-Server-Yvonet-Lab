@@ -1,28 +1,48 @@
-# Administración de usuarios y grupos
+# 07. Usuarios y Grupos
 
-## Introducción
+## Administración de usuarios y grupos
+
+### Introducción
 
 Una vez creada la estructura organizativa del dominio **YVONET.LOCAL**, se procedió a crear las cuentas de usuario necesarias para representar los distintos departamentos de la empresa.
 
-La administración de usuarios mediante Active Directory permite gestionar el acceso a los recursos de forma centralizada y segura.
+La administración de usuarios mediante **Active Directory** permite gestionar de forma centralizada el acceso a los recursos de la organización, mejorando la seguridad y facilitando la administración del dominio.
 
 ---
 
-## Usuarios creados
+# Creación de usuarios
+
+Se creó un conjunto de usuarios distribuidos entre las diferentes Unidades Organizativas definidas previamente.
+
+La siguiente tabla muestra la organización de los usuarios:
 
 | Unidad Organizativa | Usuarios |
-|---|---|
+|---------------------|----------|
 | Archivo | Leo, Chispita |
 | Personal | Negro, Samba |
 | Seguridad | Nina |
 | Administración | Qori |
 | RRHH | Chaska |
 
-Cada usuario fue ubicado dentro de la Unidad Organizativa correspondiente.
+Cada usuario fue creado utilizando la consola **Usuarios y equipos de Active Directory** y ubicado dentro de la Unidad Organizativa correspondiente.
 
 ---
 
-## Organización de usuarios
+## Captura de creación de un usuario
+
+<a href="../screenshots/07-creacion_usuario.png">
+  <img
+    src="../screenshots/07-creacion_usuario.png"
+    alt="Creación de un usuario"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+---
+
+# Organización de los usuarios
+
+La estructura del dominio quedó organizada de la siguiente manera:
 
 ```text
 YVONET.LOCAL
@@ -45,50 +65,103 @@ YVONET.LOCAL
     └── Chaska
 ```
 
----
-
-## Administración de grupos
-
-Se utilizaron grupos de seguridad para facilitar la asignación de permisos sobre los recursos compartidos.
-
-Esta metodología permite administrar el acceso a los recursos mediante grupos, evitando asignar permisos directamente a cada usuario.
+Esta organización facilita la administración y localización de los usuarios dentro del dominio.
 
 ---
 
-## Buenas prácticas aplicadas
+## Captura de la estructura de usuarios
+
+<a href="../screenshots/07-equipos_usuarios.png">
+  <img
+    src="../screenshots/07-equipos_usuarios.png"
+    alt="Estructura de usuarios"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+---
+
+# Creación de grupos de seguridad
+
+Además de los usuarios, se crearon grupos de seguridad para administrar el acceso a los recursos compartidos.
+
+La utilización de grupos permite asignar permisos de forma más eficiente, evitando configurar permisos individualmente para cada usuario.
+
+Los grupos se organizaron según las necesidades de cada departamento y posteriormente se utilizarán para controlar el acceso a las carpetas compartidas del servidor.
+
+---
+
+## Captura de creación de un grupo de seguridad
+
+<a href="../screenshots/07-grupo_seguridad.png">
+  <img
+    src="../screenshots/07-grupo_seguridad.png"
+    alt="Creacion de un grupo de seguridad"
+    title="Presione para ampliar"
+    width="400">
+</a>
+
+---
+
+# Buenas prácticas aplicadas
 
 Durante la configuración se siguieron las siguientes recomendaciones:
 
-- Organizar los usuarios por departamentos mediante OU.
+- Organizar los usuarios por departamentos mediante Unidades Organizativas.
 - Utilizar grupos de seguridad para la asignación de permisos.
-- Mantener una estructura clara y fácil de administrar.
-- Facilitar el crecimiento futuro del dominio.
+- Evitar asignar permisos directamente a usuarios individuales.
+- Mantener una estructura clara y fácilmente administrable.
+- Facilitar el crecimiento futuro de la infraestructura.
 
 ---
 
-## Herramientas utilizadas
+# Herramientas utilizadas
 
-- Server Manager
-- Active Directory Users and Computers
+Para la creación y administración de usuarios y grupos se utilizaron las siguientes herramientas:
+
+- Administrador del servidor (Server Manager).
+- Usuarios y equipos de Active Directory.
 
 ---
 
-## Comandos utilizados
+# Comandos utilizados
 
-### Comprobar el usuario autenticado
+## Comprobar el usuario autenticado
 
 ```cmd
 whoami
 ```
 
-### Comprobar el nombre del equipo
+Permite verificar el usuario con el que se ha iniciado sesión en el dominio.
+
+---
+
+## Comprobar el nombre del equipo
 
 ```cmd
 hostname
 ```
 
+Permite comprobar el nombre del equipo desde el que se está trabajando.
+
 ---
 
-## Resultado
+# Evidencias de configuración
 
-La infraestructura quedó preparada para administrar el acceso a los recursos compartidos mediante usuarios y grupos de seguridad.
+Durante la administración de usuarios y grupos se recopilaron las siguientes capturas:
+
+| Captura | Descripción |
+|----------|-------------|
+| Imagen 07.1 | Creación de un usuario mediante Active Directory. |
+| Imagen 07.2 | Organización de los usuarios dentro de las Unidades Organizativas. |
+| Imagen 07.3 | Creación de un grupo de seguridad. |
+
+---
+
+# Resultado
+
+El dominio **YVONET.LOCAL** quedó configurado con los usuarios y grupos necesarios para representar la estructura de la empresa.
+
+La organización mediante Unidades Organizativas y grupos de seguridad facilitará la administración de permisos y el acceso a los recursos compartidos, permitiendo una gestión centralizada, ordenada y segura de toda la infraestructura.
+
+El siguiente paso consistirá en la creación y configuración de los **recursos compartidos** del servidor.
