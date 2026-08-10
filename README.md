@@ -21,7 +21,7 @@ El proyecto documenta la creación, configuración y resolución de incidencias 
 
 **Servidor**
 
-* Sistema operativo: Windows Server 2024
+* Sistema operativo: Windows Server 2022
 * Nombre del servidor: `SVR-YVONET`
 * Dominio: `YVONET.LOCAL`
 
