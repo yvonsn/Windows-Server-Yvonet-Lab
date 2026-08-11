@@ -58,8 +58,8 @@ Este proyecto está documentado paso a paso para facilitar su seguimiento y serv
 |-----------|-------------|
 | [01 - Introducción](docs/01-Introduccion.md) | Presentación del proyecto y objetivos. |
 | [02 - Preparación del entorno](docs/02-Preparacion-del-Entorno.md) | Configuración del entorno de virtualización. |
-| [03 - Instalación de Windows Server](docs/03-Instalación_sistemas.md) |
-| [04 - Configuración del servidor](docs/04-Configuracion_sistemas.md) |
+| [03 - Instalación de Windows Server](docs/03-Instalación_sistemas.md) | Instalación de Windows Server 2022 y Windows 11 |
+| [04 - Configuración del servidor](docs/04-Configuracion_sistemas.md) | Configuración de nombres de equipo, direcciones IP, DNS |
 | [05 - Active Directory](docs/05-Active-Directory.md) | Instalación y configuración de AD DS. |
 | [06 - Unidades Organizativas](docs/06-Unidades-Organizativas.md) | Organización del dominio mediante OU. |
 | [07 - Usuarios y Grupos](docs/07-Usuarios-y-Grupos.md) | Creación y administración de usuarios. |
